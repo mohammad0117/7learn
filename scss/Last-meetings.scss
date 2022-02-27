@@ -1,0 +1,310 @@
+//variable
+$default-font-size: 16px;
+$background-color-last-meetings: #f4f4f4;
+//start media custom for header
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .left-side {
+    .left-side__search-button {
+      .left-side__search {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .left-side {
+    padding-right: 112px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 974px) {
+  .page-title__text {
+    font-size: $default-font-size + 1px !important;
+  }
+}
+//end media custom for header
+//start media custom for title last meeting
+@media screen and (min-width: 0px) and (max-width: 995px) {
+  .title__left-side {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+}
+//end media custom for title last meeting
+//header style
+#header {
+  .row {
+    .right-side {
+      .right-side__text {
+        font-size: $default-font-size - 3px;
+        color: #aea9b1;
+      }
+    }
+    .left-side {
+      .left-side__search-button {
+        display: flex;
+
+        margin-top: 5px;
+        .left-side__search {
+          width: 70%;
+          position: relative;
+          .left-side__search-box {
+            width: 100%;
+            background-color: #f0f0f1;
+            border: none;
+            height: 35px;
+            padding-right: 7px;
+            font-size: 12px;
+            border-radius: 7px;
+          }
+          .fa-search {
+            color: #777777;
+            font-size: 25px;
+            left: 5px;
+            top: 6px;
+            position: absolute;
+          }
+        }
+        .btn-primary {
+          margin-right: 22px;
+          font-size: 13px;
+          .fa-arrow-left {
+            padding-right: 2px;
+            vertical-align: -2px;
+            transition: margin-right 0.4s ease;
+          }
+        }
+      }
+    }
+    #login {
+      .right-side-text {
+        color: #7c7c7c;
+      }
+      #email {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      #password {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      .remember-me {
+        label {
+          vertical-align: 4px;
+        }
+      }
+      .not-robot {
+        padding: 15px;
+        background: #efefef;
+        border-radius: 5px;
+        border: 1px solid #d8d8d8;
+        margin: 10px;
+        #robot {
+          transform: scale(2.3);
+          border: 1px solid #7c7c7c;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        label {
+          margin-right: 10px;
+          vertical-align: 5px;
+        }
+      }
+      .forget-pass {
+        a {
+          color: #7c7c7c;
+        }
+      }
+    }
+  }
+}
+//menu-bar style
+#menu-bar {
+  .navbar-nav {
+    font-size: $default-font-size - 3;
+    .nav-item {
+      .nav-link {
+        transition: color 0.3s ease;
+        &:hover {
+          color: rgb(60, 142, 250) !important;
+        }
+      }
+    }
+  }
+  .fa-shopping-cart {
+    font-size: 25px;
+    color: #777;
+  }
+}
+//main-container style
+#main-container {
+  background-color: $background-color-last-meetings;
+#last-meeting{
+  .title {
+    padding-top: 50px;
+    .title__right-side {
+      h1 {
+        font-size: 1.75rem;
+        color: #404040;
+        font-weight: 400;
+        line-height: 45px;
+      }
+    }
+    .title__left-side {
+      .dropdown {
+        button {
+          background-color: #fff;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-right: 5px;
+          padding-left: 200px;
+          font-size: 13px;
+          &:focus {
+            box-shadow: none;
+          }
+          .fa-chevron-down {
+            top: 13px;
+            left: 5px;
+            font-size: 14px;
+          }
+          &::after {
+            display: none;
+          }
+        }
+        .dropdown-menu {
+          .dropdown-item {
+            padding-top: 0;
+            font-size: 14px;
+            padding-right: 5px;
+            transition: background-color 0.4s ease;
+            padding-bottom: 1px;
+            &:hover {
+              background-color: rgb(27, 179, 240);
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  }
+  .option {
+    transition: opacity .4s ease;
+    &:hover{
+      opacity: 0.7;
+      cursor: pointer;
+    }
+    .option__caption {
+      .option__icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 15px;
+        position: relative;
+        background-color: #EEEEEE;
+        transition: cursor 0.3s ease;
+          &:hover{
+            cursor: pointer;
+          }
+        .fa-play {
+          position: absolute;
+          right: 18px;
+          top: 17px;
+          color: #999999;
+        }
+      }
+      .option__text{
+        .option__text-1{
+          font-size: 13px;
+          color: #7F7E7E;
+        }
+        .option__text-2{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+}
+//footer style
+#footer {
+  background-color: #f9f9f9;
+  margin-top: 300px;
+  .row {
+    .container {
+      .row {
+        .right-side {
+          .copy-right {
+            span {
+              color: #555;
+            }
+          }
+          .social-icons {
+            font-size: $default-font-size + 20px;
+            color: #ccc;
+            i {
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(29, 105, 247);
+              }
+            }
+          }
+          .footer-menu {
+            a {
+              color: #555;
+              font-size: $default-font-size - 2px;
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(41, 145, 243);
+              }
+            }
+          }
+        }
+        .left-side {
+          background-color: #ececec;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 1000px;
+            height: 100%;
+            top: 0;
+            right: 100%;
+            background-color: #ececec;
+          }
+          .description,
+          .contact-us {
+            color: #555;
+            font-family: $default-font-size - 2px;
+          }
+          .image-footer img {
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+//footer-1 style
+#footer-1 {
+  .row {
+    .text {
+      font-size: $default-font-size - 2px;
+      color: #7c7c7c;
+      .fa-heart {
+        color: red;
+      }
+      .fa-coffee {
+        color: burlywood;
+      }
+    }
+  }
+}

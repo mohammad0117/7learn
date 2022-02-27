@@ -1,0 +1,748 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سر فصلها</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/headlines.css">
+</head>
+
+<body dir="rtl">
+    <!-- start header -->
+    <div class="container" id="header">
+        <div class="row">
+            <div class="right-side col-12 col-lg-6 text-center text-lg-left">
+                <a href="" class="right-side__text text-decoration-none ">
+                    <img class="mt-3" src="assets/img/logo-header.png" alt="">
+                    <p class="mt-1 d-none d-lg-block">از یادگیری تا ورود به بازار کار</p>
+                </a>
+            </div>
+            <div class="left-side col-12 col-lg-6 mt-4">
+                <div class="left-side__search-button">
+                    <div class="left-side__search w-60">
+                        <input class="left-side__search-box" type="text"
+                            placeholder="عنوان مد نظر خود را جستجو کنید...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <button type="button" class="btn btn-primary d-none d-lg-block" data-toggle="modal"
+                        data-target="#login"> ورود/ثبت نام
+                        <i class="fas fa-arrow-left"></i></button>
+                </div>
+                <div class="modal fade" id="login" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-body">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h3 class="mt-3">ورود به آکادمی</h3>
+                                            <p class="mt-3 right-side-text">خوشحالیم که دوباره میبینیمت:)</p>
+                                            <label for="email" class="w-100">ایمیل</label>
+                                            <input type="email" id="email" class="w-100">
+                                            <label for="password" class="w-100 mt-2">کلمه عبور</label>
+                                            <input type="password" id="password" class="w-100">
+                                            <div class="remember-me mt-3">
+                                                <input type="checkbox" id="checkbox">
+                                                <label for="checkbox">مرا به خاطر بسپار</label>
+                                            </div>
+                                            <div class="not-robot">
+                                                <input type="checkbox" id="robot">
+                                                <label for="robot">من ربات نیستم</label>
+                                            </div>
+                                            <button type="button" class="btn btn-primary w-100 mt-2">ورود</button>
+                                            <button type="button" class="btn btn-danger w-100 mt-2">ورود با
+                                                گوگل</button>
+                                            <p class="text-center mt-3"><a href="" class="text-decoration-none">هنوز
+                                                    عضو نشدی؟بزن بریم</a></p>
+                                            <p class="text-center mt-3 forget-pass"><a href=""
+                                                    class="text-decoration-none">کلمه عبور خود را
+                                                    فراموش کرده‌اید؟</a></p>
+                                        </div>
+                                        <div class="col-6">
+                                            <img class="img-fluid h-100" src="assets/img/AdobeStock.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- start menu-bar -->
+    <div class="container " id="menu-bar">
+        <div class="row d-flex justify-content-between">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-withe">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">دوره‌های متخصص<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">سر فصل‌ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">آخرین جلسات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پرسش و پاسخ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پایگاه دانش</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">برترین دانشجویان</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <a href=""><i class="fas fa-shopping-cart mt-3 mr-3"></i></a>
+        </div>
+    </div>
+    <!-- end menu-bar -->
+
+    <section class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- start section title -->
+            <div class="container" id="title">
+                <div class="row">
+                    <div class="page-title col-12 mt-3 rounded">
+                        <div
+                            class="page-title__content d-flex flex-column align-items-center flex-md-row justify-content-sm-between p-4">
+                            <h1 class="page-title__text text-center text-lg-left col-md-6 col-lg-6 col-xl-6">سر فصل‌های
+                                آموزشی آکادمی سون لرن</h1>
+                            <div class="page-title__search-box position-relative w-100 col-md-5 col-lg-4 col-xl-4">
+                                <input class="page-title__search w-100 h-100 p-2 pl-3 mt-1" type="text"
+                                    placeholder="جستجو کنید...">
+                                <button class="page-title__search-button position-absolute"><i
+                                        class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section title -->
+            <!-- start section Select-features -->
+            <div class="container mt-3" id="main-section">
+                <div class="row">
+                    <div class="col-3 ">
+                        <div class="row">
+                            <div class="section col-10  bg-white rounded shadow">
+                                <p class="pt-2 section__title">نوع سرفصل</p>
+                                <div class="section__line"></div>
+                                <div class="section__option mt-3">
+                                    <input type="checkbox" id="option-1" class="ml-1">
+                                    <label for="option-1" class="ml-2">رایگان</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-2">
+                                    <label for="option-2" class="ml-2"> غیر رایگان</label>
+                                </div>
+                            </div>
+                            <div class="section col-10 bg-white rounded mt-3 shadow">
+                                <p class="pt-2 section__title">مهارت</p>
+                                <div class="section__line"></div>
+                                <div class="section__option mt-3">
+                                    <input type="checkbox" id="option-3" class="ml-1">
+                                    <label for="option-3" class="ml-2">وردپرس</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-4">
+                                    <label for="option-4" class="ml-2"> لاراول</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-5">
+                                    <label for="option-5" class="ml-2"> برنامه نویسی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-6">
+                                    <label for="option-6" class="ml-2">جاوا اسکریپت</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-7">
+                                    <label for="option-7" class="ml-2"> اندروید</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-8">
+                                    <label for="option-8" class="ml-2">PHP</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-9">
+                                    <label for="option-9" class="ml-2"> علوم کامپیوتر و الگوریتم</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-10">
+                                    <label for="option-10" class="ml-2"> هوش مصنوعی و علم داده</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-11">
+                                    <label for="option-11" class="ml-2"> Git</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-12">
+                                    <label for="option-12" class="ml-2">سیو</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-13">
+                                    <label for="option-13" class="ml-2"> طراحی وب</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-14">
+                                    <label for="option-14" class="ml-2"> رابط کاربری(UI)</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-15">
+                                    <label for="option-15" class="ml-2">فریلنسینگ</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-16">
+                                    <label for="option-16" class="ml-2">پایتون</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-17">
+                                    <label for="option-17" class="ml-2">داده‌کاوی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-18">
+                                    <label for="option-18" class="ml-2"> لینوکس</label>
+                                </div>
+                            </div>
+                            <div class="section section-professors col-10 bg-white rounded mt-3 shadow">
+                                <p class="pt-2 section__title">مدرس</p>
+                                <div class="section__line"></div>
+                                <div class="section__option mt-3">
+                                    <input type="checkbox" id="option-19" class="ml-1">
+                                    <label for="option-19" class="ml-2">کیوان علی‌محمدی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-20">
+                                    <label for="option-20" class="ml-2"> مهرداد سامی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-21">
+                                    <label for="option-21" class="ml-2">وحید صالحی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-22">
+                                    <label for="option-22" class="ml-2">پوریا محمدرضایی</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-23">
+                                    <label for="option-23" class="ml-2"> لقمان آوند</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-24">
+                                    <label for="option-24" class="ml-2">مجتبی سوری</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="checkbox" id="option-25">
+                                    <label for="option-25" class="ml-2"> سعید شاهینی</label>
+                                </div>
+                                <p
+                                    class="section-professors__more-items mt-3  text-center text-decoration-none position-relative">
+                                    موارد
+                                    بیشتر <i class="fas fa-chevron-down position-absolute"></i> </p>
+                                <div class="section-professors__Other-professors d-none">
+                                    <div class="section__option ml-1 mt-3 mb-3">
+                                        <input type="checkbox" id="option-26">
+                                        <label for="option-26" class="ml-2"> مسعود کاویانی</label>
+                                    </div>
+                                    <div class="section__option ml-1 mt-3 mb-3">
+                                        <input type="checkbox" id="option-27">
+                                        <label for="option-27" class="ml-2"> مهرداد دادخواه</label>
+                                    </div>
+                                    <div class="section__option ml-1 mt-3 mb-3">
+                                        <input type="checkbox" id="option-28">
+                                        <label for="option-28" class="ml-2">سپهر نامدار</label>
+                                    </div>
+                                </div>
+                                <p
+                                    class="section-professors__fewer-items mt-3 d-none  text-center text-decoration-none position-relative">
+                                    موارد
+                                    کمتر <i class="fas fa-chevron-up position-absolute"></i> </p>
+                            </div>
+                            <div class="section col-10 bg-white rounded mt-3 shadow">
+                                <p class="pt-2 section__title">مرتب سازی بر اساس</p>
+                                <div class="section__line"></div>
+                                <div class="section__option mt-3">
+                                    <input type="radio" id="option-19" class="ml-1">
+                                    <label for="option-19" class="ml-2">جدیدترین</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="radio" id="option-20">
+                                    <label for="option-20" class="ml-2"> بیشترین دانشجو</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="radio" id="option-21">
+                                    <label for="option-21" class="ml-2">کمترین قیمت</label>
+                                </div>
+                                <div class="section__option ml-1 mt-3 mb-3">
+                                    <input type="radio" id="option-22">
+                                    <label for="option-22" class="ml-2">بیشترین قیمت</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/laravel.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mt-3  pl-1">تمام محتوای دوره متخصص لاراول
+                                            </h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/design-pattern.png" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4 ">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/laravel.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mt-3  pl-1">تمام محتوای دوره متخصص لاراول
+                                            </h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/design-pattern.png" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/design-pattern.png" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="card-courses  bg-white ">
+                                    <a href="#" class="text-decoration-none text-dark">
+                                        <div class="position-relative">
+                                            <img class="card-courses__image" src="assets/img/Fluttr.jpg" alt="">
+                                            <div
+                                                class="card-courses__information d-flex justify-content-end mr-2 position-absolute">
+                                                <i class="fas fa-user mr-3 p-1 bg-white rounded">65</i> <i
+                                                    class="fas fa-shopping-cart p-1 bg-white rounded">4,000,000</i>
+                                            </div>
+                                            <h2 class="card-courses__caption mb-5 mt-3 pl-1">تمام محتوای دوره متخصص
+                                                لاراول</h2>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="text-center col-12">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination justify-content-center">
+                                      <li class="page-item">
+                                        <a class="page-link"><i class="fas fa-arrow-right"></i></a>
+                                      </li>
+                                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">...</a></li>
+                                      <li class="page-item"><a class="page-link" href="#">13</a></li>
+                                      <li class="page-item">
+                                        <a class="page-link" href="#"><i class="fas fa-arrow-left"></i></a>
+                                      </li>
+                                    </ul>
+                                  </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section Select-features -->
+            <!-- start footer -->
+            <footer class="container-fluid" id="footer">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="right-side col-12  col-lg-6">
+                                <div class="copy-right mt-5 d-flex pl-3">
+                                    <img src="assets/img/logo-footer.png" alt="">
+                                    <span class="pl-3">هدف مجموعه سون لرن افزایش سطح کیفیت آموزش و راهی برای ورود
+                                        دانشجویان
+                                        به
+                                        بازار کار تخصصی
+                                        است</span>
+                                </div>
+                                <div class="social-icons mt-4 pl-3">
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-linkedin-in"></i>
+                                </div>
+                                <div class="footer-menu pl-3">
+                                    <div class="d-flex my-5">
+                                        <a href="" class="text-decoration-none">صفحه اصلی</a>
+                                        <a href="" class="text-decoration-none pl-5">پایگاه دانش</a>
+                                        <a href="" class="text-decoration-none pl-5">درباره ما</a>
+                                        <a href="" class="text-decoration-none pl-5">ارتباط با ما</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="left-side col-12  col-lg-6">
+                                <p class="description mt-5 ml-3">بدلیل شرایط حساس کنونی و شیوع کرونا تیم سون لرن تا
+                                    اطلاع
+                                    ثانوی
+                                    به صورت
+                                    دورکار فعالیت دارد.</p>
+                                <div class="contact-us ml-3 d-flex">
+                                    <p>تلفن<a href="" class="text-decoration-none">02128427750</a></p>
+                                    <p class="ml-5">پشتیبانی تلگرام<a href=""
+                                            class="text-decoration-none">@sup_7learn</a>
+                                    </p>
+                                </div>
+                                <div class="image-footer ml-3">
+                                    <img class="mr-3" src="assets/img/sep.png" alt="">
+                                    <img class="mx-3" src="assets/img/nashr-d3.png" alt="">
+                                    <img class="mx-3" src="assets/img/logo.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+            </footer>
+            <!-- end footer -->
+        </div>
+    </section>
+    <!-- start footer-1 -->
+    <div class="container" id="footer-1">
+        <div class="row">
+            <div class="col-12">
+                <p class="text text-center pt-3">ساخته شده با <i class="fas fa-heart"></i> و <i
+                        class="fas fa-coffee"></i>
+                    دانشجویان آکادمی سون لرن</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-1 -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.section-professors__more-items').click(function () {
+                $('.section-professors__Other-professors').addClass('d-block');
+                $('.section-professors__fewer-items').addClass('d-block');
+                $('.section-professors__more-items').addClass('d-none');
+            });
+            $('.section-professors__fewer-items').click(function () {
+                $('.section-professors__Other-professors').removeClass('d-block');
+                $('.section-professors__fewer-items').removeClass('d-block');
+                $('.section-professors__more-items').removeClass('d-none');
+            });
+        });
+    </script>
+</body>
+
+</html>

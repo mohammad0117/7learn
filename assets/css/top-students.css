@@ -1,0 +1,274 @@
+@media screen and (max-width: 992px) {
+  .selected-student {
+    margin-top: 40px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .selected-student {
+    margin-top: 10px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main-footer__left-side .main-footer__left-side__description {
+    margin-top: 65px !important;
+  }
+  .main-footer__left-side:after {
+    display: none;
+  }
+}
+
+#main-container .header .header__right-side .header__right-side__logo img {
+  width: 153px;
+  height: 45px;
+}
+
+#main-container .header .header__right-side .header__right-side__logo p {
+  font-size: 13px;
+  color: #c7cfd2;
+}
+
+#main-container .header .header__right-side .header__right-side__shop {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 25px;
+}
+
+#main-container .header .header__right-side .header__right-side__user {
+  font-size: 30px;
+  top: 31px;
+  left: 19px;
+}
+
+#main-container .header .header__left-side .header__left-side__search-box input {
+  background-color: #f0f0f1;
+  font-size: 13px;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+
+#main-container .header .header__left-side .header__left-side__search-box button {
+  left: 25px;
+  top: 9px;
+  font-size: 20px;
+  color: #777777;
+}
+
+#main-container .header .header__left-side .header__left-side__button button {
+  font-size: 13px;
+}
+
+#main-container .header .header__left-side .header__left-side__button button i {
+  vertical-align: -2px;
+  color: #94c6f7;
+}
+
+#main-container .line {
+  width: 100%;
+  background-color: #f7f7f7;
+  height: 2px;
+}
+
+#main-container .menu-bar .menu-bar__items .menu-bar__items__navbar button {
+  top: -99px;
+  border: none;
+  right: -5px;
+}
+
+#main-container .menu-bar .menu-bar__items .menu-bar__items__navbar .navbar-nav li a {
+  font-size: 13px;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+#main-container .menu-bar .menu-bar__items .menu-bar__items__navbar .navbar-nav li a:hover {
+  color: #23b9f5;
+}
+
+#main-container .menu-bar .menu-bar__shop {
+  font-size: 25px;
+}
+
+#main-container #top-students {
+  background-color: #f4f4f4;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__educational-paths button:focus,
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__general button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #000;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__educational-paths button:after,
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__general button:after {
+  display: none;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__educational-paths .dropdown-menu .dropdown-item,
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__general .dropdown-menu .dropdown-item {
+  font-size: 13px;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-right: 12px !important;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__educational-paths .dropdown-menu .dropdown-item:hover,
+#main-container #top-students .top-students .top-students__filters-table .top-students__filters .top-students__filters__general .dropdown-menu .dropdown-item:hover {
+  background-color: #1da6f5;
+  color: #fff;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__table .top-students__table__item {
+  border-radius: 7px;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__table .top-students__table__item .top-students__table__item__right-side i {
+  font-size: 60px;
+  top: 0;
+  right: 30px;
+  color: #e5e5e5;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__table .top-students__table__item .top-students__table__item__right-side span {
+  margin-right: 95px;
+  font-size: 18px;
+}
+
+#main-container #top-students .top-students .top-students__filters-table .top-students__table .top-students__table__item .top-students__table__item__left-side {
+  border-radius: 16px;
+  color: #6d8e1d;
+}
+
+#main-container #top-students .top-students .top-students__table__pagination .pagination .page-item.active {
+  background-color: #007bec;
+  border-radius: 7px;
+}
+
+#main-container #top-students .top-students .top-students__table__pagination .pagination .page-item.active .page-link {
+  color: #fff !important;
+}
+
+#main-container #top-students .top-students .top-students__table__pagination .pagination .page-item .page-link {
+  background-color: transparent;
+  border: none;
+}
+
+#main-container #top-students .top-students .top-students__table__pagination .pagination .page-item .page-link:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #007bec;
+  color: #fff !important;
+  border-radius: 7px;
+}
+
+#main-container #top-students .top-students .top-students__table__pagination .pagination .page-item .page-link:hover {
+  color: #1ec3f5 !important;
+}
+
+#main-container #top-students .top-students .top-students__selected .selected-student {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 44px;
+}
+
+#main-container #top-students .top-students .top-students__selected .selected-student .selected-student__title {
+  font-size: 20px;
+}
+
+#main-container #top-students .top-students .top-students__selected .selected-student .selected-student__information {
+  border-radius: 7px;
+}
+
+#main-container #top-students .top-students .top-students__selected .selected-student .selected-student__information i {
+  font-size: 75px;
+  color: #efefef;
+}
+
+#main-container #top-students .top-students .top-students__selected .selected-student .selected-student__information .selected-student__information__description {
+  line-height: 32px;
+  color: #727272;
+}
+
+#container-footer {
+  margin-top: 150px;
+  background-color: #f9f9f9;
+}
+
+#container-footer .main-footer .main-footer__right-side .main-footer__right-side__icons a {
+  font-size: 35px;
+  color: #cccccc;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+#container-footer .main-footer .main-footer__right-side .main-footer__right-side__icons a:hover {
+  color: #007bff;
+}
+
+#container-footer .main-footer .main-footer__right-side .main-footer__right-side__menu-bar .nav .nav-link {
+  color: #666159;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+#container-footer .main-footer .main-footer__right-side .main-footer__right-side__menu-bar .nav .nav-link:hover {
+  color: #007bff;
+}
+
+#container-footer .main-footer .main-footer__left-side {
+  background-color: #ECECEC;
+  position: relative;
+}
+
+#container-footer .main-footer .main-footer__left-side .main-footer__left-side__description {
+  color: #555A5E;
+}
+
+#container-footer .main-footer .main-footer__left-side .main-footer__left-side__phne-sup span {
+  color: #555A5E;
+}
+
+#container-footer .main-footer .main-footer__left-side .main-footer__left-side__phne-sup a:hover {
+  color: #007bff;
+}
+
+#container-footer .main-footer .main-footer__left-side .main-footer__left-side__picturs img {
+  width: 70px;
+}
+
+#container-footer .main-footer .main-footer__left-side::before {
+  content: '';
+  width: 190px;
+  position: absolute;
+  top: 0px;
+  left: -190px;
+  background-color: #ECECEC;
+  height: 100%;
+}
+
+#container-footer .main-footer .main-footer__left-side::after {
+  content: '';
+  width: 190px;
+  position: absolute;
+  top: 0px;
+  right: -190px;
+  background-color: #ECECEC;
+  height: 100%;
+}
+
+#container-footer .text-footer p {
+  font-size: 13px;
+}
+
+#container-footer .text-footer p i.fa-heart {
+  color: red;
+}
+
+#container-footer .text-footer p i.fa-coffee {
+  color: #795548;
+}
+/*# sourceMappingURL=top-students.css.map */

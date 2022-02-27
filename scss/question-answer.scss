@@ -1,0 +1,411 @@
+//variable
+$default-font-size: 16px;
+//start media custom for header
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .left-side {
+    .left-side__search-button {
+      .left-side__search {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .left-side {
+    padding-right: 112px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 974px) {
+  .page-title__text {
+    font-size: $default-font-size + 1px !important;
+  }
+}
+//end media custom for header
+// start media custom for section question-answer
+@media screen and (min-width: 0px) and (max-width: 974px) {
+  .question-answer__tab-pane {
+    .options {
+      border: none !important;
+
+      a {
+        border: 1px solid #34b6f1;
+        border-radius: 5px;
+        margin: 9px;
+        font-size: 15px;
+      }
+    }
+  }
+  .question__right-side {
+    width: 100%;
+    display: block !important;
+    .question__count-answer {
+      background-color: transparent !important;
+      .question__answer-parent {
+        display: inline !important;
+      }
+    }
+    .question__count-visit {
+      background-color: transparent !important;
+      .question__visit-parent {
+        display: inline !important;
+      }
+    }
+    .question__answer-visit {
+      width: 100%;
+      display: block;
+    }
+    .question__title {
+      display: block;
+      margin-right: 18px !important;
+      margin-top: 10px;
+    }
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+.skills-list{
+  display: block !important;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 557px) {
+  .question-answer__nav-tabs{
+    display: none;
+  }
+  .question-answer__nav-tabs-button{
+    display:block !important;
+    &:focus{
+      border: 2px solid #000;
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+  }
+#header {
+  .row {
+    .right-side {
+      .right-side__text {
+        font-size: $default-font-size - 3px;
+        color: #aea9b1;
+      }
+    }
+    .left-side {
+      .left-side__search-button {
+        display: flex;
+
+        margin-top: 5px;
+        .left-side__search {
+          width: 70%;
+          position: relative;
+          .left-side__search-box {
+            width: 100%;
+            background-color: #f0f0f1;
+            border: none;
+            height: 35px;
+            padding-right: 7px;
+            font-size: 12px;
+            border-radius: 7px;
+          }
+          .fa-search {
+            color: #777777;
+            font-size: 25px;
+            left: 5px;
+            top: 6px;
+            position: absolute;
+          }
+        }
+        .btn-primary {
+          margin-right: 22px;
+          font-size: 13px;
+          .fa-arrow-left {
+            padding-right: 2px;
+            vertical-align: -2px;
+            transition: margin-right 0.4s ease;
+          }
+        }
+      }
+    }
+    #login {
+      .right-side-text {
+        color: #7c7c7c;
+      }
+      #email {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      #password {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      .remember-me {
+        label {
+          vertical-align: 4px;
+        }
+      }
+      .not-robot {
+        padding: 15px;
+        background: #efefef;
+        border-radius: 5px;
+        border: 1px solid #d8d8d8;
+        margin: 10px;
+        #robot {
+          transform: scale(2.3);
+          border: 1px solid #7c7c7c;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        label {
+          margin-right: 10px;
+          vertical-align: 5px;
+        }
+      }
+      .forget-pass {
+        a {
+          color: #7c7c7c;
+        }
+      }
+    }
+  }
+}
+//menu-bar style
+#menu-bar {
+  .navbar-nav {
+    font-size: $default-font-size - 3;
+    .nav-item {
+      .nav-link {
+        transition: color 0.3s ease;
+        &:hover {
+          color: rgb(60, 142, 250) !important;
+        }
+      }
+    }
+  }
+  .fa-shopping-cart {
+    font-size: 25px;
+    color: #777;
+  }
+}
+// main container style
+#main-container {
+  background-color: #f6f9fb;
+  #question-answer {
+    .question-answer__title {
+      h2 {
+        color: #007bec;
+      }
+      p {
+        color: #212529;
+        font-size: 13px;
+      }
+    }
+    .skills-list {
+      display: none;
+      .skills-list__button {
+        .skills-list__button-text {
+          vertical-align: 6px;
+        }
+        .logo {
+          margin-left: 10px;
+          .line-1,
+          .line-2,
+          .line-3 {
+            width: 20px;
+            display: block;
+            background-color: #fff;
+            height: 3px;
+            margin-top: 5px;
+          }
+        }
+        &:after {
+          display: none;
+        }
+      }
+      .dropdown-menu {
+        right: 48px !important;
+
+        .dropdown-item {
+          .skills__circle {
+            width: 5px;
+            height: 5px;
+            background: #007bec;
+            display: inline-block;
+            border-radius: 100%;
+          }
+          &:hover {
+            background-color: transparent !important;
+          }
+        }
+      }
+    }
+    .question-answer__search-box {
+      input {
+        padding: 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        border: none;
+      }
+    }
+    .question-answer__nav-tabs {
+      direction: ltr;
+      .active {
+        border-bottom: 2px solid blue !important;
+        &:focus {
+          border-bottom: 2px solid rgb(36, 132, 241);
+        }
+      }
+    }
+    .tab-content {
+      .question-answer__tab-pane {
+        .options {
+          a {
+            border-left: 1px solid blue;
+            margin-right: -5px;
+            &:hover {
+              background-color: rgb(51, 134, 241);
+              color: #fff;
+            }
+          }
+          a:nth-child(4) {
+            border-left: none;
+          }
+        }
+      }
+    }
+    .question-answer__tab-pane {
+      .question {
+        .question__information {
+          left: 10px;
+          bottom: -13px;
+          font-size: 13px;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -20px;
+          text-align: center;
+          width: 97%;
+          height: 1px;
+          margin: 0 auto;
+          background-color: #eee;
+        }
+      }
+      :nth-last-child(1) {
+        &::after {
+          display: none;
+        }
+      }
+    }
+    .pagination {
+      margin-top: 150px;
+      li {
+        a {
+          background-color: transparent;
+          color: #212130;
+          border: none;
+          &:focus {
+            background-color: #4fb9f7;
+            border: none;
+            outline: none;
+            color: #fff;
+          }
+          &:hover {
+            color: #4fb9f7;
+          }
+        }
+      }
+    }
+    .skills {
+      margin-top: 162px;
+      height: 485px;
+      .skills__circle {
+        width: 5px;
+        height: 5px;
+        background: #007bec;
+        display: inline-block;
+        border-radius: 100%;
+      }
+    }
+  }
+}
+//footer style
+#footer {
+  background-color: #f9f9f9;
+  margin-top: 150px;
+  .row {
+    .container {
+      .row {
+        .right-side {
+          .copy-right {
+            span {
+              color: #555;
+            }
+          }
+          .social-icons {
+            font-size: $default-font-size + 20px;
+            color: #ccc;
+            i {
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(29, 105, 247);
+              }
+            }
+          }
+          .footer-menu {
+            a {
+              color: #555;
+              font-size: $default-font-size - 2px;
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(41, 145, 243);
+              }
+            }
+          }
+        }
+        .left-side {
+          background-color: #ececec;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 1000px;
+            height: 100%;
+            top: 0;
+            right: 100%;
+            background-color: #ececec;
+          }
+          .description,
+          .contact-us {
+            color: #555;
+            font-family: $default-font-size - 2px;
+          }
+          .image-footer img {
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+//footer-1 style
+#footer-1 {
+  .row {
+    .text {
+      font-size: $default-font-size - 2px;
+      color: #7c7c7c;
+      .fa-heart {
+        color: red;
+      }
+      .fa-coffee {
+        color: burlywood;
+      }
+    }
+  }
+}

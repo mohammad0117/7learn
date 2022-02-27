@@ -1,0 +1,345 @@
+//variable
+$default-font-size: 16px;
+$background-color-container-fluid: #f6f9fb;
+$color-searchbox-section-title: #b2cbe0;
+$font-color-title-select-feature: #3b3b3b;
+$font-size-title-select-feature: 15px;
+$font-color-option-select-feature: #847777;
+$font-size-option-select-feature: 15px;
+$font-color-more-items:#B4C7D3;
+//media custom
+@media screen and (min-width: 0px) and (max-width: 992px) {
+  .left-side {
+    .left-side__search-button {
+      .left-side__search {
+        width: 100% !important;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1200px) {
+  .left-side {
+    padding-right: 112px;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 974px){
+.page-title__text{
+  font-size: $default-font-size + 1px !important;
+}
+}
+//header style
+#header {
+  .row {
+    .right-side {
+      .right-side__text {
+        font-size: $default-font-size - 3px;
+        color: #aea9b1;
+      }
+    }
+    .left-side {
+      .left-side__search-button {
+        display: flex;
+
+        margin-top: 5px;
+        .left-side__search {
+          width: 70%;
+          position: relative;
+          .left-side__search-box {
+            width: 100%;
+            background-color: #f0f0f1;
+            border: none;
+            height: 35px;
+            padding-right: 7px;
+            font-size: 12px;
+            border-radius: 7px;
+          }
+          .fa-search {
+            color: #777777;
+            font-size: 25px;
+            left: 5px;
+            top: 6px;
+            position: absolute;
+          }
+        }
+        .btn-primary {
+          margin-right: 22px;
+          font-size: 13px;
+          .fa-arrow-left {
+            padding-right: 2px;
+            vertical-align: -2px;
+            transition: margin-right 0.4s ease;
+          }
+        }
+      }
+    }
+    #login {
+      .right-side-text {
+        color: #7c7c7c;
+      }
+      #email {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      #password {
+        background-color: #e8f0fe;
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        &:focus {
+          outline: none;
+        }
+      }
+      .remember-me {
+        label {
+          vertical-align: 4px;
+        }
+      }
+      .not-robot {
+        padding: 15px;
+        background: #efefef;
+        border-radius: 5px;
+        border: 1px solid #d8d8d8;
+        margin: 10px;
+        #robot {
+          transform: scale(2.3);
+          border: 1px solid #7c7c7c;
+          margin-right: 10px;
+          margin-top: 5px;
+        }
+        label {
+          margin-right: 10px;
+          vertical-align: 5px;
+        }
+      }
+      .forget-pass {
+        a {
+          color: #7c7c7c;
+        }
+      }
+    }
+  }
+}
+//menu-bar style
+#menu-bar {
+  .navbar-nav {
+    font-size: $default-font-size - 3;
+    .nav-item {
+      .nav-link {
+        transition: color 0.3s ease;
+        &:hover {
+          color: rgb(60, 142, 250) !important;
+        }
+      }
+    }
+  }
+  .fa-shopping-cart {
+    font-size: 25px;
+    color: #777;
+  }
+}
+//title style
+#main-container {
+  background-color: $background-color-container-fluid;
+  .row {
+    #title {
+      .page-title {
+        background-color: #fff;
+        .page-title__text {
+          font-size: $default-font-size + 6px;
+        }
+        .page-title__search-box {
+          .page-title__search {
+            background-color: #f6f9fb;
+            border: 1px solid #d9e7f1;
+            border-radius: 5px;
+            &::placeholder {
+              color: $color-searchbox-section-title;
+            }
+          }
+          .page-title__search-button {
+            left: 22px;
+            top: 14px;
+            border: none;
+            font-size: $default-font-size + 6px;
+            color: $color-searchbox-section-title;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    #main-section {
+      .row{
+        .col-3{
+          .row{
+            .section {
+              .section__title {
+                color: $font-color-title-select-feature;
+                font-size: $font-size-title-select-feature;
+              }
+              .section__line {
+                width: 100%;
+                height: 1px;
+                background-color: #edf2f5;
+                margin-top: -10px;
+              }
+              .section__option {
+                cursor: pointer;
+                input[type="checkbox"],input[type="radio"] {
+                  transform: scale(2);
+                  vertical-align: -4px;
+                  cursor: pointer;
+                }
+                label {
+                  color: $font-color-option-select-feature;
+                  font-size: $font-size-option-select-feature;
+                  transition: color .4s ease;
+                  cursor: pointer;
+                  &:hover{
+                    color: rgb(12, 223, 12);
+                  }
+                }
+              }
+              .section-professors__more-items{
+                cursor: pointer;
+                color: $font-color-more-items;
+                .fa-chevron-down{
+                  top: 6px;
+                  right: 168px;
+                }
+              }
+              .section-professors__fewer-items{
+                cursor: pointer;
+                color: $font-color-more-items;
+                .fa-chevron-up{
+                  top: 6px;
+                  right: 168px;
+                }
+              }
+            }
+            
+          }
+        }
+        .col-9{
+          .row{
+            .card-courses{
+              min-height: 200px;
+              border-radius: 5px;
+              .card-courses__image{
+                width: 100%;
+                height: 200px;
+                border-radius: 5px 5px 0 0;
+              }
+              .card-courses__information{
+                left: 0;
+                bottom: 34px;
+                .fa-shopping-cart{
+                  color: #28A745;
+                  font-size: 13px;
+                }
+                .fa-user{
+                  font-size: 13px;
+                  color: #207297;
+                }
+              }
+              .card-courses__caption{
+                font-size: 14px;
+              }
+            }
+             .pagination{
+               li{
+                 a{
+                   background-color: transparent;
+                   border: none;
+                   color: rgb(49, 47, 47);
+                   transition: color .4s ease;
+                   &:hover{
+                     color: rgb(44, 190, 235);
+                   }
+                 }
+               }
+             }
+          }
+        }
+      }
+      
+    }
+  }
+}
+//footer style
+#footer {
+  background-color: #f9f9f9;
+  margin-top: 300px;
+  .row {
+    .container {
+      .row {
+        .right-side {
+          .copy-right {
+            span {
+              color: #555;
+            }
+          }
+          .social-icons {
+            font-size: $default-font-size + 20px;
+            color: #ccc;
+            i {
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(29, 105, 247);
+              }
+            }
+          }
+          .footer-menu {
+            a {
+              color: #555;
+              font-size: $default-font-size - 2px;
+              transition: color 0.3s ease;
+              &:hover {
+                color: rgb(41, 145, 243);
+              }
+            }
+          }
+        }
+        .left-side {
+          background-color: #ececec;
+          &::after {
+            content: "";
+            position: absolute;
+            width: 1000px;
+            height: 100%;
+            top: 0;
+            right: 100%;
+            background-color: #ececec;
+          }
+          .description,
+          .contact-us {
+            color: #555;
+            font-family: $default-font-size - 2px;
+          }
+          .image-footer img {
+            width: 90px;
+          }
+        }
+      }
+    }
+  }
+}
+//footer-1 style
+#footer-1 {
+  .row {
+    .text {
+      font-size: $default-font-size - 2px;
+      color: #7c7c7c;
+      .fa-heart {
+        color: red;
+      }
+      .fa-coffee {
+        color: burlywood;
+      }
+    }
+  }
+}

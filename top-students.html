@@ -1,0 +1,519 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برترین دانشجویان</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/top-students.css">
+</head>
+
+<body dir="rtl">
+    <div class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- start section header -->
+            <div class="container header">
+                <div class="row align-items-center">
+                    <div
+                        class="header__right-side position-relative text-center text-lg-left col-12 col-sm-12 col-md-12 col-lg-6 col-xl-7">
+                        <a href="#" class="header__right-side__logo mt-3 d-inline-block text-decoration-none">
+                            <img src="assets/img/logo-header.png" alt="">
+                            <p class="mt-1 d-none d-lg-block">از یادگیری تا ورود به بازار کار</p>
+                        </a>
+                        <a href="#" class="header__right-side__shop text-body mt-3 d-lg-none"><i
+                                class="fas fa-shopping-cart mr-5"></i></a>
+                        <a href="#"
+                            class="far fa-user header__right-side__user text-body position-absolute d-lg-none"></a>
+                    </div>
+                    <div class="header__left-side col-12 col-sm-12 col-md-12 col-lg-6 col-xl-5">
+                        <div class="row align-items-center justify-content-around">
+                            <div
+                                class="header__left-side__search-box mt-4 mt-lg-0 d-inline-block col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                <input type="text" class="w-100 pl-2 position-relative border-0 "
+                                    placeholder="عنوان مد نظر خود را جستجو کنید...">
+                                <button class=" position-absolute bg-transparent border-0"><i
+                                        class="fas fa-search"></i></button>
+                            </div>
+                            <div class="header__left-side__button d-none d-lg-inline-block col-lg-4">
+                                <button type="button" class="btn btn-primary py-2 px-3">ورود/ثبت نام <i
+                                        class="fas fa-arrow-left ml-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section header -->
+            <div class="line d-none d-lg-block"></div>
+            <!-- start section menu-bar -->
+            <div class="container menu-bar">
+                <div class="row justify-content-between">
+                    <div class="menu-bar__items  p-0">
+                        <nav class="navbar menu-bar__items__navbar navbar-expand-lg navbar-light pl-2">
+                            <button class="navbar-toggler ml-2 position-absolute" type="button" data-toggle="collapse"
+                                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">دوره های متخصص<span
+                                                class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">سر فصل ها</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">آخرین جلسات</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">پرسش و پاسخ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">پایگاه دانش</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link ml-2 ml-lg-0" href="#">برترین دانشجویان</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <a href="#" class="menu-bar__shop text-body mt-3 d-none d-lg-block"><i
+                            class="fas fa-shopping-cart mr-5"></i></a>
+                </div>
+            </div>
+            <!-- end section menu-bar -->
+            <!-- start section top students -->
+            <div class="container-fluid " id="top-students">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="top-students  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                <div class="row">
+                                    <h3
+                                        class="top-students__title mt-4 text-center text-md-left  col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                        برترین دانشجویان</h3>
+                                    <div
+                                        class="top-students__selected  p-lg-3 col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-xl-none">
+                                        <div class="selected-student">
+                                            <p class="selected-student__title">برگزیده</p>
+                                            <div class="selected-student__information bg-white p-3">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex">
+                                                        <i class="fas fa-portrait"></i>
+                                                        <p class="ml-3 mt-3 text-secondary">مهدی دزفولیزاده</p>
+                                                    </div>
+                                                    <p class="selected-student__information__description col-12 mt-3">
+                                                        تونسته بیشترین امتیازات رو توی آکادمی سون لرن در این بازه زمانی
+                                                        کسب کنه. و این به معنی پیگیری بهتر
+                                                        آموزش ها
+                                                        و پاسخگویی
+                                                        دقیقتر به آزمون ها و سوالات در طول دوره است
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="top-students__filters-table col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                                        <div
+                                            class="top-students__filters col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                            <div class="row">
+                                                <div
+                                                    class="top-students__filters__educational-paths p-0 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="btn-group mt-4 w-100">
+                                                        <button type="button"
+                                                            class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center py-2 rounded"
+                                                            data-toggle="dropdown" aria-expanded="false">
+                                                            <span class="educational-paths__text">بر اساس مسیرهای
+                                                                آموزشی</span>
+                                                            <i class="fas fa-chevron-down educational-paths__icon"></i>
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">بر اساس مسیرهای آموزشی</a>
+                                                            <a class="dropdown-item" href="#">دوره متخصص وردپرس</a>
+                                                            <a class="dropdown-item" href="#">لاراول کاربردی(بسته پروژه
+                                                                محور)</a>
+                                                            <a class="dropdown-item" href="#">متخصص جاوا اسکریپت</a>
+                                                            <a class="dropdown-item" href="#">متخصص اندروید</a>
+                                                            <a class="dropdown-item" href="#">متخصص php</a>
+                                                            <a class="dropdown-item" href="#">متخصص لاراول</a>
+                                                            <a class="dropdown-item" href="#">متخصص سیو</a>
+                                                            <a class="dropdown-item" href="#">متخصص لاراول</a>
+                                                            <a class="dropdown-item" href="#">متخصص طراحی وب</a>
+                                                            <a class="dropdown-item" href="#">متخصص طراحی رابط کاربری
+                                                                (UI)</a>
+                                                            <a class="dropdown-item" href="#">متخصص لاراول</a>
+                                                            <a class="dropdown-item" href="#">متخصص پایتون-توسعه وب</a>
+                                                            <a class="dropdown-item" href="#">متخصص پایتون-علم داده</a>
+                                                            <a class="dropdown-item" href="#">متخصص لینوکس</a>
+                                                            <a class="dropdown-item" href="#">الفبای برنامه نویسی</a>
+                                                            <a class="dropdown-item" href="#">دوره حرفه ای الگوهای
+                                                                طراحی</a>
+                                                            <a class="dropdown-item" href="#">دوره متخصص فلاتر</a>
+                                                            <a class="dropdown-item" href="#"> دوره متخصص لاراول</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="top-students__filters__general p-0 pl-md-3 pr-lg-3 col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                                    <div class="btn-group  mt-4 w-100 ml-lg-3">
+                                                        <button type="button"
+                                                            class="btn bg-white dropdown-toggle d-flex justify-content-between align-items-center py-2 rounded"
+                                                            data-toggle="dropdown" aria-expanded="false">
+                                                            <span class="educational-general__text">کلی</span> <i
+                                                                class="fas fa-chevron-down educational-general__icon"></i>
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">کلی</a>
+                                                            <a class="dropdown-item" href="#">هفت روز گذشته</a>
+                                                            <a class="dropdown-item" href="#">سی روز گذشته</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="top-students__table col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                            <div class="row">
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-4 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__item d-flex justify-content-between align-items-center position-relative  mt-2 p-3 bg-white col-12">
+                                                    <div class="top-students__table__item__right-side">
+                                                        <i class="fas fa-medal position-absolute"></i>
+                                                        <span>مهدی دزفولی زاده</span>
+                                                    </div>
+                                                    <div
+                                                        class="top-students__table__item__left-side mr-3 bg-light px-3 py-1">
+                                                        2555px</div>
+                                                </div>
+                                                <div
+                                                    class="top-students__table__pagination d-flex justify-content-center mt-5 col-12">
+                                                    <nav aria-label="...">
+                                                        <ul class="pagination">
+                                                            <li class="page-item ">
+                                                                <a class="page-link text-body" href="#"><i
+                                                                        class="fas fa-chevron-right"></i></a>
+                                                            </li>
+                                                            <li class="page-item active"><a class="page-link text-body"
+                                                                    href="#">1</a></li>
+                                                            <li class="page-item " aria-current="page">
+                                                                <a class="page-link text-body" href="#">2</a>
+                                                            </li>
+                                                            <li class="page-item"><a class="page-link text-body"
+                                                                    href="#">...</a></li>
+                                                            <li class="page-item"><a class="page-link text-body"
+                                                                    href="#">576</a></li>
+                                                            <li class="page-item">
+                                                                <a class="page-link text-body" href="#"><i
+                                                                        class="fas fa-chevron-left "></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="top-students__selected d-none d-xl-block col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4">
+                                        <div class="selected-student">
+                                            <p class="selected-student__title">برگزیده</p>
+                                            <div class="selected-student__information bg-white p-3">
+                                                <div class="row">
+                                                    <div class="col-12 d-flex">
+                                                        <i class="fas fa-portrait"></i>
+                                                        <p class="ml-3 mt-3 text-secondary">مهدی دزفولیزاده</p>
+                                                    </div>
+                                                    <p class="selected-student__information__description col-12 mt-3">
+                                                        تونسته بیشترین امتیازات رو توی آکادمی سون لرن در این بازه زمانی
+                                                        کسب کنه. و این به معنی پیگیری بهتر
+                                                        آموزش ها
+                                                        و پاسخگویی
+                                                        دقیقتر به آزمون ها و سوالات در طول دوره است
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- start section footer -->
+                    <div class="container-fluid" id="container-footer">
+                        <div class="row">
+                            <div class="container main-footer">
+                                <div class="row">
+                                    <div class="main-footer__right-side col-12 col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <div class="row">
+                                            <div
+                                                class="main-footer__right-side__caption d-flex align-items-center mt-1 mt-xl-5 col-12">
+                                                <img class="ml-0 ml-xl-2" src="assets/img/logo-footer.png" alt="">
+                                                <p class="mt-3 ml-3 text-secondary">هدف مجموعه سون لرن افزایش سطح کیفیت
+                                                    آموزش و راهی برای ورود دانشجویان
+                                                    به بازار کار تخصصی است</p>
+                                            </div>
+                                            <div class="main-footer__right-side__icons mt-1 mt-xl-4 pl-xl-4 col-12">
+                                                <a href="" class="text-decoration-none fab fa-instagram"></a>
+                                                <a href="" class="text-decoration-none fab fa-twitter ml-3"></a>
+                                                <a href="" class="text-decoration-none fab fa-linkedin-in ml-3"></a>
+                                            </div>
+                                            <div
+                                                class="main-footer__right-side__menu-bar mt-1 my-3 mt-xl-5 pl-1 pl-xl-2 col-12">
+                                                <nav class="nav">
+                                                    <a class="nav-link" href="#">صفحه اصلی</a>
+                                                    <a class="nav-link" href="#">پایگاه دانش</a>
+                                                    <a class="nav-link" href="#">درباره ما</a>
+                                                    <a class="nav-link" href="#">ارتباط با ما</a>
+                                                </nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="main-footer__left-side col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <div class="row">
+                                            <div class="main-footer__left-side__description mt-3 ml-2 ml-xl-3 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                بدلیل شرایط
+                                                حساس کنونی و شیوع
+                                                کرونا تیم سون لرن تا اطلاع ثانوی به صورت دورکار فعالیت دارد.
+                                            </div>
+                                            <div
+                                                class="main-footer__left-side__phne-sup d-flex justify-content-between mt-4 ml-2 ml-xl-3 col-10 col-sm-10 col-md-7 col-lg-6 col-xl-10">
+                                                <div class="phne ml-1"><span>تلفن</span> <a href=""
+                                                        class="text-decoration-none">02128427750</a></div>
+                                                <div class="sup ml-2"><span>پشتیبانی تلگرام</span> <a href=""
+                                                        class="text-decoration-none">@sup_7learn</a></div>
+                                            </div>
+                                            <div
+                                                class="main-footer__left-side__picturs ml-1 ml-xl-3 mt-3 mt-xl-4 mb-3 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                                                <a href="" class="ml-2"><img src="assets/img/pic-1.png" alt="pic-1"></a>
+                                                <a href="" class="ml-3"><img src="assets/img/pic-2.png" alt="pic-2"></a>
+                                                <a href="" class="ml-3"><img src="assets/img/pic-3.png" alt="pic-3"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="text-footer d-flex justify-content-center p-0 col-12">
+                                <p class="my-2">ساخته شده با <i class="fas fa-heart"></i> و <i
+                                        class="fas fa-coffee"></i>
+                                توسط  دانشجویان  آکادمی سون لرن </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end section footer -->
+            </div>
+        </div>
+        <!-- end section top students -->
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

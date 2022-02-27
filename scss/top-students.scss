@@ -1,0 +1,293 @@
+@media screen and (max-width: 992px) {
+  .selected-student {
+    margin-top: 40px !important;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .selected-student {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-footer__left-side{
+    .main-footer__left-side__description{
+      margin-top: 65px !important;
+    }
+    &:after{
+      display: none;
+    }
+  }
+}
+#main-container {
+  // start header style
+  .header {
+    .header__right-side {
+      .header__right-side__logo {
+        img {
+          width: 153px;
+          height: 45px;
+        }
+        p {
+          font-size: 13px;
+          color: #c7cfd2;
+        }
+      }
+      .header__right-side__shop {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        font-size: 25px;
+      }
+      .header__right-side__user {
+        font-size: 30px;
+        top: 31px;
+        left: 19px;
+      }
+    }
+    .header__left-side {
+      .header__left-side__search-box {
+        input {
+          background-color: #f0f0f1;
+          font-size: 13px;
+          padding: 10px 0;
+          border-radius: 8px;
+        }
+        button {
+          left: 25px;
+          top: 9px;
+          font-size: 20px;
+          color: #777777;
+        }
+      }
+      .header__left-side__button {
+        button {
+          font-size: 13px;
+
+          i {
+            vertical-align: -2px;
+            color: #94c6f7;
+          }
+        }
+      }
+    }
+  }
+  //end header style
+  .line {
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 2px;
+  }
+  //start menu-bar style
+  .menu-bar {
+    .menu-bar__items {
+      .menu-bar__items__navbar {
+        button {
+          top: -99px;
+          border: none;
+          right: -5px;
+        }
+        .navbar-nav {
+          li {
+            a {
+              font-size: 13px;
+              transition: color 0.3s ease;
+              &:hover {
+                color: #23b9f5;
+              }
+            }
+          }
+        }
+      }
+    }
+    .menu-bar__shop {
+      font-size: 25px;
+    }
+  }
+  //end menu-bar style
+  // start top-students style
+  #top-students {
+    background-color: #f4f4f4;
+    .top-students {
+      .top-students__filters-table {
+        .top-students__filters {
+          .top-students__filters__educational-paths,
+          .top-students__filters__general {
+            button {
+              &:focus {
+                box-shadow: none;
+                border: 2px solid #000;
+              }
+              &:after {
+                display: none;
+              }
+            }
+            .dropdown-menu {
+              .dropdown-item {
+                font-size: 13px;
+                padding-top: 0 !important;
+                padding-bottom: 0 !important;
+                padding-right: 12px !important;
+                &:hover {
+                  background-color: #1da6f5;
+                  color: #fff;
+                }
+              }
+            }
+          }
+        }
+        .top-students__table {
+          .top-students__table__item {
+            border-radius: 7px;
+            .top-students__table__item__right-side {
+              i {
+                font-size: 60px;
+                top: 0;
+                right: 30px;
+                color: #e5e5e5;
+              }
+              span {
+                margin-right: 95px;
+                font-size: 18px;
+              }
+            }
+            .top-students__table__item__left-side {
+              border-radius: 16px;
+              color: #6d8e1d;
+            }
+          }
+        }
+      }
+      .top-students__table__pagination {
+        .pagination {
+          .page-item.active {
+            background-color: #007bec;
+            border-radius: 7px;
+            .page-link {
+              color: #fff !important;
+            }
+          }
+          .page-item {
+            .page-link {
+              background-color: transparent;
+              border: none;
+              &:focus {
+                box-shadow: none;
+                background-color: #007bec;
+                color: #fff !important;
+                border-radius: 7px;
+              }
+              &:hover {
+                color: #1ec3f5 !important;
+              }
+            }
+          }
+        }
+      }
+      .top-students__selected {
+        .selected-student {
+          top: 0;
+          position: sticky;
+          margin-top: 44px;
+          .selected-student__title {
+            font-size: 20px;
+          }
+          .selected-student__information {
+            border-radius: 7px;
+            i {
+              font-size: 75px;
+              color: #efefef;
+            }
+            .selected-student__information__description {
+              line-height: 32px;
+              color: #727272;
+            }
+          }
+        }
+      }
+    }
+  }
+  // end top-students style
+}
+//start footer style
+#container-footer {
+  margin-top: 150px;
+  background-color: #f9f9f9;
+    .main-footer {
+    .main-footer__right-side {
+      .main-footer__right-side__icons {
+        a {
+          font-size: 35px;
+          color: #cccccc;
+          transition: color 0.5s ease;
+          &:hover {
+            color: #007bff;
+          }
+        }
+      }
+      .main-footer__right-side__menu-bar {
+        .nav {
+          .nav-link {
+            color: #666159;
+            transition: color 0.5s ease;
+            &:hover {
+              color: #007bff;
+            }
+          }
+        }
+      }
+    }
+    .main-footer__left-side{
+      background-color:#ECECEC ;
+      position: relative;
+      .main-footer__left-side__description{
+        color: #555A5E;
+      }
+      .main-footer__left-side__phne-sup{
+        span{
+          color: #555A5E;
+        }
+        a{
+          &:hover{
+            color: #007bff;
+          }
+        }
+      }
+      .main-footer__left-side__picturs{
+        img{
+          width: 70px;
+        }
+      }
+      &::before{
+        content: '';
+        width:190px;
+        position: absolute;
+        top: 0px;
+        left: -190px;
+        background-color:#ECECEC ;
+        height: 100%;
+      }
+      &::after{
+        content: '';
+        width:190px;
+        position: absolute;
+        top: 0px;
+        right: -190px;
+        background-color:#ECECEC ;
+        height: 100%;
+      }
+    }
+  }
+  .text-footer{
+    p{
+      font-size: 13px;
+      i.fa-heart{
+        color: red;
+        
+      }
+      i.fa-coffee{
+        color: #795548;
+      }
+    }
+  }
+}
+//end footer style

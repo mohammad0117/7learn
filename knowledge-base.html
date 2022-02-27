@@ -1,0 +1,711 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/bootstrap-rtl.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/knowledge-base.css">
+    <title>پایگاه دانش</title>
+</head>
+
+<body dir="rtl">
+    <div class="container-fluid" id="main-container">
+        <div class="row">
+            <!-- start section header -->
+            <header class="container header ">
+                <div class="row align-items-center position-relative">
+                    <div class="header__right-side mt-5  col-7 col-sm-3 col-md-6 col-lg-7 col-xl-7">
+                        <div class="row">
+                            <a href="" class="header__right-side__logo d-none d-lg-inline-block  col-2">
+                                <img src="assets/img/logo-header.png" alt="">
+                            </a>
+                            <div class="header__right-side__options col-9 ml-3 d-none d-lg-inline-block">
+                                <a href="" class="item text-decoration-none courses ml-xl-3"> دوره ها <i
+                                        class="fas fa-caret-down"></i>
+                                </a>
+                                <a href="" class="item text-decoration-none  ml-lg-0 ml-xl-4 skills">مهارت ها <i
+                                        class="fas fa-caret-down"></i></a>
+                                <a href="" class="item text-decoration-none ml-5 ml-lg-4">وبلاگ</a>
+                                <a href="" class="item text-decoration-none ml-5 ml-lg-4">درباره ما</a>
+                            </div>
+                            <div class="header__right-side__dropdown ml-3 d-lg-none">
+                                <div class="btn-group">
+                                    <button type="button" class="btn  dropdown-toggle  d-flex" data-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <span class="button__logo">
+                                            <span class="line-1"></span>
+                                            <span class="line-2"></span>
+                                            <span class="line-3"></span>
+                                        </span>
+                                        <span class="button__text ml-2">سون لرن </span>
+                                    </button>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__left-side mt-5 col-5 col-sm-9 col-md-6 col-lg-5 col-xl-5">
+                        <div class="row pl-sm-4 pl-lg-0 pl-xl-5">
+                            <a href=""
+                                class="header__left-side__search d-inline-block bg-white ml-sm-5 ml-md-2 ml-lg-0 ml-xl-1">
+                                <button><i class="fas fa-search"></i></button>
+                            </a>
+                            <a href=""
+                                class="header__left-side__text  text-decoration-none ml-3 bg-white d-inline-block">
+                                <span class="d-none d-sm-inline-block">آکادمی سون لرن</span><i
+                                    class="fas fa-graduation-cap p-1 ml-sm-2"></i>
+                            </a>
+                            <div class="header__left-side__login-membership ml-2 ml-xl-3 d-none d-lg-inline-block">
+                                <a href="" class="text-decoration-none text-body d-inline-block">ورود</a>
+                                <a href="" class=" text-decoration-none text-body">عضویت</a>
+                            </div>
+                            <a href=""
+                                class="header__left-side__text p-3  text-decoration-none ml-3 bg-white d-inline-block d-lg-none">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="courses-menu position-absolute bg-white ml-3 mt-2 d-none">
+                        <div class="row">
+                            <div class="col-5">
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص جاوا اسکریپت</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص ورد پرس</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص پی اچ پی</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص طراحی وب</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص اندروید</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 my-3">دوره
+                                    متخصص طراحی رابط کاربری</a>
+                            </div>
+                            <div class="col-5">
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص لاراول</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص پایتون وب</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص علم داده</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    متخصص فلاتر</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 my-3">دوره
+                                    متخصص الگوهای طراحی</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-menu position-absolute bg-white ml-3 mt-2 d-none">
+                        <div class="row">
+                            <div class="col-4">
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش برنامه نویسی</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش جاوا اسکریپت</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش لاراول</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش ایمیل مارکتینگ</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش سیو</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 my-3">دوره
+                                    آموزش طراحی رابط کاربری</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش PHP</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش فلاتر</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش ورد پرس</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش بازاریابی محتوا</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 my-3">دوره
+                                    آموزش سوشال مارکتینگ</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش اندروید</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش پایتون</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش دیجیتال مارکتینگ</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 mt-3">دوره
+                                    آموزش تبلیغات</a>
+                                <a href="" class="d-inline-block text-decoration-none py-2 px-3 ml-5 my-3">دوره
+                                    وب مستری و مدیریت سایت</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- end section header -->
+            <!-- start section blog slider -->
+            <div class="container blog-slider mt-5">
+                <div class="row">
+                    <div class="blog-slider__image mt-3 p-4  col-12 col-sm-12 col-md-12 p-lg-0 col-lg-7 col-xl-8">
+                        <a href="" class="text-decoration-none position-relative d-inline-block p-3 bg-white">
+                            <img class="img-fluid" src="assets/img/flutter-tech.png" alt="fluttr-logo">
+                            <div class="blog-slider__image__logo  text-white position-absolute ml-3">سون لرن</div>
+                            <div class="blog-slider__image__caption  text-body ml-2 mt-3">چرا برنامه نویس فلاتر شدم؟
+                            </div>
+                            <div
+                                class="blog-slider__image__title-date d-flex justify-content-between mt-4  col-7 col-lg-4">
+                                <span class="title text-muted">فلاتر</span> <span class="date text-muted">18 خرداد
+                                    1400</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        class="blog-slide__options d-md-flex align-items-md-center col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4">
+                        <div class="row px-4 px-xl-0 pb-4 pb-md-0 pb-xl-0">
+                            <a href="" class="blog-slide__options__item text-decoration-none bg-white col-12 p-3">
+                                <p class="blog-slide__options__item__title">دانلود کتاب مسیر یادگیری برنامه نویسی
+                                    اندروید</p>
+                                <div class="blog-slide__options__item__title-date"><span>اندروید</span><span
+                                        class="ml-5">30 اردیبهشت 1400</span></div>
+                            </a>
+                            <a href=""
+                                class="blog-slide__options__item text-decoration-none mt-3 d-inline-block bg-white col-12 p-3">
+                                <p class="blog-slide__options__item__title">برنامه نویسی فرانت اند چیست؟</p>
+                                <div class="blog-slide__options__item__title-date"><span>برنامه نویسی</span><span
+                                        class="ml-5">10 فروردین 1400</span></div>
+                            </a>
+                            <a href=""
+                                class="blog-slide__options__item text-decoration-none mt-3 d-inline-block bg-white col-12 p-3">
+                                <p class="blog-slide__options__item__title">آموزش نرم افزار figma:نصب،ترفندها و بهترین
+                                    پلاگین های figma</p>
+                                <div class="blog-slide__options__item__title-date"><span>برنامه نویسی</span><span
+                                        class="ml-5">10 فروردین 1400</span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section blog slider -->
+            <!-- start section search-box -->
+            <div class="container search">
+                <div class="row p-2 p-lg-0 pt-lg-5">
+                    <div class="search-box col-12 mt-5">
+                        <input type="text" class="w-100 position-relative p-3  p-lg-4 pl-5"
+                            placeholder="جستجو در وبلاگ سون لرن...">
+                    </div>
+                </div>
+            </div>
+            <!-- end section search-box -->
+            <!-- start section category button -->
+            <div class="container category-button">
+                <div class="row p-2 p-lg-0">
+                    <div class="btn-group mt-5 col-12 col-xm-12 colmd-12 col-lg-12 d-xl-none">
+                        <button type="button"
+                            class="btn py-3 bg-white d-flex justify-content-between align-items-center dropdown-toggle"
+                            data-toggle="dropdown" aria-expanded="false">
+                            <span>دسته بندی مقالات</span>
+                            <i class="fas fa-chevron-down ml-1"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item mt-3" href="#">برنامه نویسی</a>
+                            <a class="dropdown-item mt-3" href="#">دیجیتال مارکتینگ</a>
+                            <a class="dropdown-item mt-3" href="#">دیجیتال و سخت افزار</a>
+                            <a class="dropdown-item mt-3" href="#">علوم کامپیوتر و الگوریتم</a>
+                            <a class="dropdown-item mt-3" href="#">مدیریت و رهبری</a>
+                            <a class="dropdown-item mt-3" href="#">مهارت های نرم</a>
+                            <a class="dropdown-item mt-3" href="#">نرم افزار</a>
+                            <a class="dropdown-item mt-3" href="#">هوش مصنوعی</a>
+                            <a class="dropdown-item my-3" href="#">وبمستری و مدیریت سایت</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section category button -->
+            <!-- start section card-category -->
+            <div class="container card-category mt-5">
+                <div class="row">
+                    <div class="card-category__cards mt-5 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-8">
+                        <div class="row">
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mb-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid"
+                                            src="assets/img/دانلود-کتاب-مسیر-یادگیری-برنامه-نویسی-پایتون-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-md-0 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/گزارش ویژه.jpg" alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/چرا-فلاتر-را-یاد-بگیرم-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid"
+                                            src="assets/img/کتاب-مسیر-یادگیری-برنامه-نویسی-نویسی-اندروید-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/آموزش-اندروید-استودیو-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/CSRF-در-لاراول-400x240.jpg" alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/ux-writing-یا-نویسنده-ux-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/برنامه-نویسی-فرانت-اند-چیست-400x240.jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid"
+                                            src="assets/img/استفاده-از-snack-Bar-در-اندروید-400x240.jpg" alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid"
+                                            src="assets/img/Simple-and-Usable-Web-Mobile-and-Interaction-400x240 (1).jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid" src="assets/img/آموزش-نرم-افزار-Figma-400x240 (1).jpg"
+                                            alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href=""
+                                class="card-category__cards__parent d-inline-block text-decoration-none mt-5 mb-5 mt-xl-5 col-sm-12 col-md-6 col-lg-6 col-xl-12">
+                                <div class="row">
+                                    <div
+                                        class="card-category__cards__parent__image col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5">
+                                        <img class="img-fluid"
+                                            src="assets/img/تزریق-وابستگی-در-اندروید-با-Hilt-400x240 (1).jpg" alt="">
+                                    </div>
+                                    <div
+                                        class="card-category__cards__parent__caption mt-3 mt-xl-1 col-12  col-sm-12 col-md-12 col-lg-12 col-xl-7">
+                                        <p class="card-category__cards__parent__caption__title mt-3 mt-xl-0">دانلود کتاب
+                                            نقشه راه یادگیری برنامه نویسی پایتون</p>
+                                        <p class="card-category__cards__parent__caption__description mt-4">اخیرا افراد
+                                            زیادی به یادگیری زبان پایتون علاقه مند شده اند و دلایل خوبی هم دارند.پایتون
+                                            با داشتن یک جامعه...</p>
+                                        <div
+                                            class="card-category__cards__parent__caption__information mt-5 d-flex justify-content-between">
+                                            <div class="right-side">
+                                                <span>پایتون</span>
+                                                <span class="ml-3">5 تیر 1400</span>
+                                            </div>
+                                            <div class="left-side">
+                                                <span>6334</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="card-category__cards__button mt-5 d-flex justify-content-center col-12">
+                                <button type="button" class="btn bg-white p-3">نمایش مقالات بیشتر <i
+                                        class="fas fa-chevron-down ml-1"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-category__category d-none d-xl-block col-xl-4">
+                        <div class="card-category__category__parent">
+                            <p class="card-category__category__parent__title">دسته بندی مقالات</p>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">برنامه
+                                نویسی</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">دیجیتال
+                                مارکتینگ</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">شبکه و
+                                سخت افزار</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">علوم
+                                کامپیوتر و الگوریتم</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">مدیریت و
+                                رهبری</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">مهارت
+                                های نرم</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">نرم
+                                افزار</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">هوش
+                                مصنوعی</a>
+                            <a href=""
+                                class="card-category__category__parent__item text-decoration-none d-block mt-4">وبمستری
+                                و مدیریت سایت</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section card-category -->
+            <!-- srart section footer -->
+            <div class="container-fluid footer">
+                <div class="row">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer__content col-12 col-sm-12 col-md-12">
+                                <div class="row">
+                                    <div
+                                        class="footer__content__items d-flex justify-content-center align-items-center d-md-block col-12 p-0">
+                                        <img class="d-none d-sm-inline-block" src="assets/img/logo-icon.svg" alt="">
+                                        <a href="" class="item text-decoration-none text-body ml-sm-5">دوره های
+                                            متخصص</a>
+                                        <a href="" class="item text-decoration-none text-body ml-5">درباره ما</a>
+                                        <a href="" class="item text-decoration-none text-body ml-5">وبلاگ</a>
+                                    </div>
+                                    <p class="footer__content__description mt-5 pl-4 pl-md-0 col-lg-9 col-xl-9">هدف
+                                        مجموعه سون لرن افزایش سطح کیفیت
+                                        آموزش و ساختن راهی برای ورود دانشجویان
+                                        به بازار کار تخصصی است
+                                        :: سون لرن توسط سرورهای اختصاصی ایران سرور پشتیبانی شده است.
+                                    </p>
+                                    <div
+                                        class="footer__content__information mt-5 d-flex align-items-center flex-column flex-sm-row justify-content-sm-around align-items-sm-center d-md-block w-100">
+                                        <div class="footer__content__information__phone d-md-inline-block">
+                                            <span>تلفن:</span><a href=""
+                                                class="text-decoration-none text-body ml-1">28427750-021</a>
+                                        </div>
+                                        <div
+                                            class="footer__content__information__telegram mt-3 mt-sm-0 d-md-inline-block ml-md-5">
+                                            <span>پشتیبانی
+                                                تلگرام:</span><a href=""
+                                                class="text-decoration-none text-body ml-1">@sup_7learn</a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="footer__content__icons d-flex justify-content-center  d-md-block my-5 p-0 col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+                                        <i class="fab fa-twitter"></i>
+                                        <i class="fab fa-linkedin-in ml-5"></i>
+                                        <i class="fab fa-telegram ml-5"></i>
+                                        <i class="fab fa-instagram ml-5"></i>
+                                    </div>
+                                    <div
+                                        class="footer__content__pictures mb-3 mb-md-0  mt-3 mt-md-5 mt-lg-0 ml-md-5 ml-lg-0 col-12 col-sm-12 col-md-5 col-lg-7 col-xl-7">
+                                        <div class="row d-flex justify-content-center justify-content-lg-end">
+                                            <div class="footer__content__pictures__item  p-2 col-2">
+                                                <img class="img-fluid" src="assets/img/کیش.png" alt="">
+                                            </div>
+                                            <div class="footer__content__pictures__item  p-2 ml-3  col-2">
+                                                <img class="img-fluid" src="assets/img/مرکز.png" alt="">
+                                            </div>
+                                            <div class="footer__content__pictures__item  p-2 ml-3  col-2">
+                                                <img class="img-fluid" src="assets/img/3.png" alt="">
+                                            </div>
+                                            <div class="footer__content__pictures__item  p-2 ml-3  col-2">
+                                                <img class="img-fluid" src="assets/img/4.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end section footer -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('.courses').mouseenter(function () {
+                $('.courses-menu').addClass('d-block')
+            });
+            $('.courses').mouseleave(function () {
+                $('.courses-menu').removeClass('d-block')
+            });
+            $('.skills').mouseenter(function () {
+                $('.skills-menu').addClass('d-block')
+            });
+            $('.skills').mouseleave(function () {
+                $('.skills-menu').removeClass('d-block')
+            });
+        });
+    </script>
+</body>
+
+</html>
